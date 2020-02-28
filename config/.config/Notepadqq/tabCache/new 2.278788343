@@ -1,0 +1,21 @@
+                         ------------------------------------------------------------------------------------------- Production VPC, 10.48.0.0/24
+                        /                                                |                      |
+=================       |  ASAv Untrusted, DC1 - 10.48.0.128/28          |                      |  Production, DC1 - 10.48.0.64/26             * prod-master-1 (10.48.0.5)
+| Internet and  |       |  "untrust" interface on the ASA - 10.48.0.132  |    ===============   |  "trust" interface on the ASA - 10.48.0.4    * prod-master-2 (10.48.0.117 - in the "Production, DC2" subnet)
+| customer VPNs |<----------------------------------------------------------->| ka48rambo01 |<---------------------------------------------->  * kw48aws01 (10.48.0.6)
+=================       |                                                |    ===============   |                                              * via VPN gateway: on-site domain controllers, kl10repo, kl10inidr01, Icinga satellite etc.
+                        |                                                |          ^           |
+                        |                                                |          |           |
+                        |                                                |----------|-----------|
+                        |                                                |          |           |
+                        |                                                | "management" on ASA  |
+                        |                                                | ASAv Management, DC1 |
+                        \                                                | 10.48.0.144/28       |
+                         --------------------------------------------------------------------------------------------
+						 
+						 
+c
+d
+b
+a
+b

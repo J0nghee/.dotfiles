@@ -1,0 +1,29 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Brave Brave.desktop
+x-scheme-handler/https=userapp-Brave Brave.desktop
+x-scheme-handler/ftp=userapp-Brave Brave.desktop
+x-scheme-handler/chrome=userapp-Brave Brave.desktop
+text/html=userapp-Brave Brave.desktop
+application/x-extension-htm=userapp-Brave Brave.desktop
+application/x-extension-html=userapp-Brave Brave.desktop
+application/x-extension-shtml=userapp-Brave Brave.desktop
+application/xhtml+xml=userapp-Brave Brave.desktop
+application/x-extension-xhtml=userapp-Brave Brave.desktop
+application/x-extension-xht=userapp-Brave Brave.desktop
+image/jpeg=viewnior.desktop;gpicview.desktop;
+image/png=viewnior.desktop;gpicview.desktop;
+text/plain=mousepad.desktop
+x-scheme-handler/mailto=userapp-Thunderbird.desktop
+message/rfc822=userapp-Thunderbird.desktop
+application/pdf=epdfview.desktop
+application/x-bittorrent=deluge.desktop
+
+[Added Associations]
+image/jpeg=viewnior.desktop;gpicview.desktop;
+image/png=viewnior.desktop;gpicview.desktop;
+text/plain=mousepad.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird.desktop;
+message/rfc822=userapp-Thunderbird.desktop;
+application/pdf=epdfview.desktop;
+application/x-bittorrent=deluge.desktop;
+video/mp4=qvidcap.desktop;

@@ -1,0 +1,9 @@
+2020/02/28-08:54:50.885 5e5b Reusing MANIFEST /home/giogio/dotfiles/config/.config/Rambox/Partitions/slack_1/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/02/28-08:54:50.885 5e5b Recovering log #181
+2020/02/28-08:54:50.889 5e5b Reusing old log /home/giogio/dotfiles/config/.config/Rambox/Partitions/slack_1/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000181.log 
+2020/02/28-09:54:55.712 21a2 Level-0 table #185: started
+2020/02/28-09:54:55.728 21a2 Level-0 table #185: 1394304 bytes OK
+2020/02/28-09:54:55.730 21a2 Delete type=0 #181
+2020/02/28-15:17:30.649 21a2 Level-0 table #187: started
+2020/02/28-15:17:30.664 21a2 Level-0 table #187: 1593589 bytes OK
+2020/02/28-15:17:30.666 21a2 Delete type=0 #184

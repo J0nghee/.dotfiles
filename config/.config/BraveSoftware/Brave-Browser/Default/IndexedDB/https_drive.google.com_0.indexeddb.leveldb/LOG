@@ -1,0 +1,77 @@
+2020/02/25-08:57:37.033 1821 Reusing MANIFEST /home/giogio/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/02/25-08:57:37.033 1821 Recovering log #82
+2020/02/25-08:57:37.034 1821 Reusing old log /home/giogio/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000082.log 
+2020/02/25-08:57:45.526 1875 Compacting 2@0 + 3@1 files
+2020/02/25-08:57:45.545 1875 Generated table #85@0: 847 keys, 3030449 bytes
+2020/02/25-08:57:45.570 1875 Generated table #86@0: 6 keys, 2979056 bytes
+2020/02/25-08:57:45.582 1875 Generated table #87@0: 26 keys, 2026249 bytes
+2020/02/25-08:57:45.582 1875 Compacted 2@0 + 3@1 files => 8035754 bytes
+2020/02/25-08:57:45.583 1875 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/02/25-08:57:45.936 1875 Level-0 table #89: started
+2020/02/25-08:57:45.947 1875 Level-0 table #89: 5502034 bytes OK
+2020/02/25-08:57:45.949 1875 Delete type=2 #77
+2020/02/25-08:57:45.949 1875 Delete type=2 #79
+2020/02/25-08:57:45.949 1875 Delete type=0 #82
+2020/02/25-08:57:45.949 1875 Delete type=2 #78
+2020/02/25-08:57:45.949 1875 Delete type=2 #83
+2020/02/25-08:57:45.949 1875 Delete type=2 #81
+2020/02/25-08:57:58.989 1875 Level-0 table #91: started
+2020/02/25-08:57:59.000 1875 Level-0 table #91: 4540606 bytes OK
+2020/02/25-08:57:59.003 1875 Delete type=0 #88
+2020/02/25-08:57:59.856 1875 Level-0 table #93: started
+2020/02/25-08:57:59.874 1875 Level-0 table #93: 6518335 bytes OK
+2020/02/25-08:57:59.875 1875 Delete type=0 #90
+2020/02/25-08:58:15.062 1875 Level-0 table #95: started
+2020/02/25-08:58:15.077 1875 Level-0 table #95: 4512458 bytes OK
+2020/02/25-08:58:15.079 1875 Delete type=0 #92
+2020/02/25-08:58:15.079 1875 Compacting 4@0 + 3@1 files
+2020/02/25-08:58:15.101 1875 Generated table #96@0: 949 keys, 4595993 bytes
+2020/02/25-08:58:15.110 1875 Generated table #97@0: 27 keys, 2024252 bytes
+2020/02/25-08:58:15.110 1875 Compacted 4@0 + 3@1 files => 6620245 bytes
+2020/02/25-08:58:15.112 1875 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/02/25-08:58:15.112 1875 Delete type=2 #89
+2020/02/25-08:58:15.112 1875 Delete type=2 #91
+2020/02/25-08:58:15.112 1875 Delete type=2 #93
+2020/02/25-08:58:15.112 1875 Delete type=2 #86
+2020/02/25-08:58:15.112 1875 Delete type=2 #95
+2020/02/25-08:58:15.112 1875 Delete type=2 #87
+2020/02/25-08:58:15.112 1875 Delete type=2 #85
+2020/02/25-08:58:15.206 1875 Level-0 table #99: started
+2020/02/25-08:58:15.218 1875 Level-0 table #99: 5238940 bytes OK
+2020/02/25-08:58:15.220 1875 Delete type=0 #94
+2020/02/25-09:02:10.623 1875 Level-0 table #101: started
+2020/02/25-09:02:10.634 1875 Level-0 table #101: 5025673 bytes OK
+2020/02/25-09:02:10.636 1875 Delete type=0 #98
+2020/02/25-09:17:11.604 1875 Level-0 table #103: started
+2020/02/25-09:17:11.616 1875 Level-0 table #103: 5068311 bytes OK
+2020/02/25-09:17:11.618 1875 Delete type=0 #100
+2020/02/25-10:47:13.641 1875 Level-0 table #105: started
+2020/02/25-10:47:13.652 1875 Level-0 table #105: 5068315 bytes OK
+2020/02/25-10:47:13.654 1875 Delete type=0 #102
+2020/02/25-10:47:13.655 1875 Compacting 4@0 + 2@1 files
+2020/02/25-10:47:13.668 1875 Generated table #106@0: 1021 keys, 2409801 bytes
+2020/02/25-10:47:13.680 1875 Generated table #107@0: 7 keys, 3001055 bytes
+2020/02/25-10:47:13.688 1875 Generated table #108@0: 27 keys, 2024252 bytes
+2020/02/25-10:47:13.688 1875 Compacted 4@0 + 2@1 files => 7435108 bytes
+2020/02/25-10:47:13.690 1875 compacted to: files[ 0 3 1 0 0 0 0 ]
+2020/02/25-10:47:13.690 1875 Delete type=2 #99
+2020/02/25-10:47:13.690 1875 Delete type=2 #105
+2020/02/25-10:47:13.690 1875 Delete type=2 #101
+2020/02/25-10:47:13.690 1875 Delete type=2 #96
+2020/02/25-10:47:13.690 1875 Delete type=2 #103
+2020/02/25-10:47:13.690 1875 Delete type=2 #97
+2020/02/25-10:59:01.929 1875 Level-0 table #110: started
+2020/02/25-10:59:01.940 1875 Level-0 table #110: 4208663 bytes OK
+2020/02/25-10:59:01.942 1875 Delete type=0 #104
+2020/02/25-19:18:57.874 1875 Compacting 1@0 + 3@1 files
+2020/02/25-19:18:57.952 1875 Generated table #111@0: 1047 keys, 4368223 bytes
+2020/02/25-19:18:57.983 1875 Generated table #112@0: 27 keys, 2024252 bytes
+2020/02/25-19:18:57.983 1875 Compacted 1@0 + 3@1 files => 6392475 bytes
+2020/02/25-19:18:57.985 1875 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/02/25-19:18:57.985 1875 Delete type=2 #107
+2020/02/25-19:18:57.985 1875 Delete type=2 #110
+2020/02/25-19:18:57.985 1875 Delete type=2 #108
+2020/02/25-19:18:57.985 1875 Delete type=2 #106
+2020/02/25-19:23:55.854 1875 Level-0 table #114: started
+2020/02/25-19:23:55.870 1875 Level-0 table #114: 4744366 bytes OK
+2020/02/25-19:23:55.872 1875 Delete type=0 #109

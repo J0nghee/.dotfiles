@@ -1,0 +1,1 @@
+/home/giogio/.fzf/shell/key-bindings.fish

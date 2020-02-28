@@ -1,0 +1,286 @@
+[02/18/20, 14:02:00:064] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+║      Slack 4.3.2, linux 5.4.18-1-MANJARO on x64 at 02/18/20, 14:02:00:064      ║
+╚════════════════════════════════════════════════════════════════════════════════╝ 
+[02/18/20, 14:02:00:064] info: Configured logger via 
+{
+  "identifierOverride": "webapp-calls-console",
+  "logLevel": "info",
+  "numberOfInstances": 3
+}
+[02/18/20, 14:02:00:064] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.3.2",
+  "PACKAGE_MANIFEST.commit": "bdb3575",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[02/18/20, 14:02:00:214] info: Initializing local storage instance at path: /home/giogio/dotfiles/config/.config/Slack/local-settings.json 
+[02/18/20, 14:02:00:257] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[02/18/20, 14:02:00:258] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[02/18/20, 14:02:00:279] info: Read UUID from file successful {
+  "uuid": "a87849ac-f0fc-5bfc-b542-4209ea996fe7"
+} 
+[02/18/20, 14:02:00:307] info: toggleAutoSpellcheck:: desktop interface is not available 
+[02/18/20, 14:02:00:307] info: Current locale is same as new locale specified, skipping {
+  "locale": "en-US",
+  "current": "en-US"
+} 
+[02/18/20, 14:02:00:318] info: Main window preload script finished {
+  "readyTime": 10.167964
+} 
+[02/18/20, 14:02:00:399] info: [METRICS] Starting timers for metrics collection 
+[02/18/20, 14:02:00:416] info: [PERF] setupGantry begin 299ms 
+[02/18/20, 14:02:00:416] info: [APP] calls 
+[02/18/20, 14:02:00:416] info: [DATE/TIME] 1582030920416 "2020-02-18T13:02:00.416Z" 
+[02/18/20, 14:02:00:417] info: [VERSION] version_ts: 1581919453 
+[02/18/20, 14:02:00:417] info: [VERSION] min_version_data_ts: 1581290339 
+[02/18/20, 14:02:00:417] info: [VERSION] version_hash: 1ab2cf0d8a0068bc1560086688704ef946bee85d 
+[02/18/20, 14:02:00:417] info: [AUTH] authCookieChanged: started listening to the event 
+[02/18/20, 14:02:00:418] info: [AUTH] authCookieChanged: is not available 
+[02/18/20, 14:02:00:418] info: [AUTH] Credentials are fresh (psc=1579709757, csc=1579709757) 
+[02/18/20, 14:02:00:419] info: [LOCAL-CONFIG] ingestIncomingConfig(): no incoming payload to process; current teams: T0436CXD4:UP7JU94KY 
+[02/18/20, 14:02:00:419] info: [BOOT] Initial team ID: T0436CXD4 
+[02/18/20, 14:02:00:420] info: [PERF] setupGantry took 4.32ms 
+[02/18/20, 14:02:00:422] info: [BOOT] user agent: Mozilla/5.0 (X11; Linux x86_64; Manjaro Linux unversioned; i3) AppleWebKit/537.36 (KHTML, like Gecko) Slack/4.3.2 Chrome/78.0.3904.130 Electron/7.1.9 Safari/537.36 Sonic Slack_SSB/4.3.2 
+[02/18/20, 14:02:00:422] info: [BOOT] versionTs: 1581919453 versionHash: 1ab2cf0d8a0068bc1560086688704ef946bee85d 
+[02/18/20, 14:02:00:422] info: [BOOT] Boot params: {"viewId":"RU70KJMEK","inviteUserIds":["UFKUR679N"]} 
+[02/18/20, 14:02:00:424] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.423 team.info called 
+[02/18/20, 14:02:00:425] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.423 team.info is ENQUEUED 
+[02/18/20, 14:02:00:425] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.423 team.info is ACTIVE 
+[02/18/20, 14:02:00:427] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.427 experiments.getByUser called 
+[02/18/20, 14:02:00:427] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.427 experiments.getByUser is ENQUEUED 
+[02/18/20, 14:02:00:427] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.427 experiments.getByUser is ACTIVE 
+[02/18/20, 14:02:00:428] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.427 api.features called 
+[02/18/20, 14:02:00:428] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.427 api.features is ENQUEUED 
+[02/18/20, 14:02:00:428] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.427 api.features is ACTIVE 
+[02/18/20, 14:02:00:428] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.428 users.prefs.get called 
+[02/18/20, 14:02:00:428] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.428 users.prefs.get is ENQUEUED 
+[02/18/20, 14:02:00:428] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.428 users.prefs.get is ACTIVE 
+[02/18/20, 14:02:00:429] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.428 team.prefs.get called 
+[02/18/20, 14:02:00:429] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.428 team.prefs.get is ENQUEUED 
+[02/18/20, 14:02:00:429] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.428 team.prefs.get is ACTIVE 
+[02/18/20, 14:02:00:487] info: create: creating new instance of cld3 {
+  "minBufferLength": 140,
+  "maxBufferLength": 1000
+} 
+[02/18/20, 14:02:00:487] info: cld3::loadModule: loading cld3 wasm binary {
+  "initOptions": {}
+} 
+[02/18/20, 14:02:00:487] info: cld3Loader::loadModule: constructed module object for runtime 
+[02/18/20, 14:02:00:531] info: cld3Loader::initializeRuntime: successfully initialized module 
+[02/18/20, 14:02:00:532] info: cld3Loader::loadModule: initialized wasm binary Runtime 
+[02/18/20, 14:02:00:535] info: cld3::cldLoader: cld3 wasm initialized with default values {
+  "unknownIdentifier": "und",
+  "minBytesDefault": 140,
+  "maxBytesDefault": 700,
+  "maxBytesInput": 10000,
+  "languageResultStructSize": 24
+} 
+[02/18/20, 14:02:00:854] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[02/18/20, 14:02:00:854] info: [BOOT] Cold boot. 
+[02/18/20, 14:02:00:877] info: [SIGNAL-MGR] (T0436CXD4) Attempting to connect to the signaling server. 
+[02/18/20, 14:02:00:878] error: [DESKTOP] 'desktop.redux.getState' is missing or not a function 
+[02/18/20, 14:02:00:878] error: [DESKTOP] 'desktop.redux.getState' is missing or not a function 
+[02/18/20, 14:02:00:888] info: [CALL-WINDOW] (T0436CXD4) Rendering incoming call window 
+[02/18/20, 14:02:00:890] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[02/18/20, 14:02:00:893] error: [DESKTOP] 'desktop.redux.getState' is missing or not a function 
+[02/18/20, 14:02:00:894] error: [DESKTOP] 'desktop.redux.getState' is missing or not a function 
+[02/18/20, 14:02:00:899] info: Got window.open with URL: about:blank 
+[02/18/20, 14:02:00:907] error: [DESKTOP] 'desktop.redux.getState' is missing or not a function 
+[02/18/20, 14:02:00:908] error: [DESKTOP] 'desktop.redux.getState' is missing or not a function 
+[02/18/20, 14:02:00:912] info: Got window.open with URL: about:blank 
+[02/18/20, 14:02:00:920] info: [CALL-WINDOW] (T0436CXD4) Showing the invite window 
+[02/18/20, 14:02:00:975] info: [WD] All assets have reported back; s: 10; f: 0 
+[02/18/20, 14:02:00:975] info: Store: UPDATE_SETTINGS {
+  "userTheme": "light"
+} 
+[02/18/20, 14:02:00:976] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[02/18/20, 14:02:00:977] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[02/18/20, 14:02:01:023] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.428 team.prefs.get is RESOLVED 
+[02/18/20, 14:02:01:026] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.423 team.info is RESOLVED 
+[02/18/20, 14:02:01:045] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.427 api.features is RESOLVED 
+[02/18/20, 14:02:01:049] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.428 users.prefs.get is RESOLVED 
+[02/18/20, 14:02:01:051] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[02/18/20, 14:02:01:051] info: [UNKNOWN-FETCH-MANAGER] (T0436CXD4) requesting UFKUR679N (1) 
+[02/18/20, 14:02:01:052] info: [UNKNOWN-FETCH-MANAGER] (T0436CXD4) received UFKUR679N (1) 
+[02/18/20, 14:02:01:053] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[02/18/20, 14:02:01:053] info: [UNKNOWN-FETCH-MANAGER] (T0436CXD4) requesting T0436CXD4 (1) 
+[02/18/20, 14:02:01:055] warn: TRACES You tried to get a team-specific tracer but didn’t provide enough context and are getting the generic tracer instead which is likely not what you want. 
+[02/18/20, 14:02:01:056] info: [API-Q] (T0436CXD4) noversion-1582030921.055 team.info called with reason: UnknownFetchManager 
+[02/18/20, 14:02:01:057] info: [API-Q] (T0436CXD4) noversion-1582030921.055 team.info is ENQUEUED 
+[02/18/20, 14:02:01:057] info: [API-Q] (T0436CXD4) noversion-1582030921.055 team.info is ACTIVE 
+[02/18/20, 14:02:01:069] warn: TELEMETRY You tried to get a team-specific telemeter but didn’t provide enough context and are getting the generic telemeter instead which is likely not what you want. 
+[02/18/20, 14:02:01:091] info: [BOOT-QUEUE] T0436CXD4 noversion-1582030920.427 experiments.getByUser is RESOLVED 
+[02/18/20, 14:02:01:096] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.096 screenhero.rooms.info called with reason: active-call-info 
+[02/18/20, 14:02:01:097] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.096 screenhero.rooms.info is ENQUEUED 
+[02/18/20, 14:02:01:097] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.096 screenhero.rooms.info is ACTIVE 
+[02/18/20, 14:02:01:101] info: [ORCA-MEDIA] (T0436CXD4) Created peer connection: unpqkxn 
+[02/18/20, 14:02:01:102] info: [DEVICES] (T0436CXD4) Updating devices with device enumeration. 
+[02/18/20, 14:02:01:122] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[02/18/20, 14:02:01:122] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.121 emoji.list called with reason: loadEmoji 
+[02/18/20, 14:02:01:122] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.121 emoji.list is ENQUEUED 
+[02/18/20, 14:02:01:123] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.121 emoji.list is ACTIVE 
+[02/18/20, 14:02:01:124] info: [METRICS] (T0436CXD4) 
+Boot Timings:
+------ | -------- | -----------------------------------------
+Time   | Duration | Name                                     
+------ | -------- | -----------------------------------------
+256ms  | (3ms)    | slack-kit-styles.91085fe.css             
+256ms  | (7ms)    | calls-boot-styles.4f4e07f.css            
+257ms  | (3ms)    | helper-styles.d0ebb51.css                
+260ms  |          | start_load                               
+260ms  | (4ms)    | gantry-vendors.58c35b6.min.js            
+261ms  | (4ms)    | gantry-vendors-calls.c8a2b89.min.js      
+261ms  | (3ms)    | gantry-shared.f9d27ac.min.js             
+261ms  | (2ms)    | calls-boot.7ef01f9.min.js                
+350ms  |          | begin_execute_boot                       
+356ms  |          | begin_execute_boot_call                  
+       | (404ms)  | script_boot_imports                      
+       | (629ms)  | load_room_data                           
+       | (670ms)  | load_slack_required_data                 
+       | (701ms)  | execute_boot_call                        
+357ms  | (21ms)   | gantry-vendors-async.304be01.min.js      
+357ms  | (2ms)    | gantry-vendors-async-calls.9fb203e.min.js
+358ms  | (125ms)  | calls-boot-imports.e02c01b.min.js        
+379ms  | (468ms)  | team.info                                
+380ms  | (482ms)  | users.info                               
+380ms  | (487ms)  | experiments.getByUser                    
+381ms  | (476ms)  | api.features                             
+381ms  | (484ms)  | users.prefs.get                          
+382ms  | (463ms)  | team.prefs.get                           
+382ms  | (468ms)  | users.info                               
+382ms  | (485ms)  | screenhero.rooms.join                    
+913ms  | (3ms)    | slack-icons-v2-71d3b78.woff2             
+953ms  |          | first-paint                              
+953ms  |          | first-contentful-paint                   
+1030ms |          | begin_connect_to_websocket               
+ 
+[02/18/20, 14:02:01:137] info: [CALL-WINDOW] (T0436CXD4) Rendering incoming call window 
+[02/18/20, 14:02:01:143] info: [ORCA-MEDIA] (T0436CXD4) onnegotiationneeded fired 
+[02/18/20, 14:02:01:144] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.143 team.info called with reason: conditional-fetching 
+[02/18/20, 14:02:01:145] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.143 team.info is ENQUEUED 
+[02/18/20, 14:02:01:145] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.143 team.info is ACTIVE 
+[02/18/20, 14:02:01:205] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.203 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[02/18/20, 14:02:01:206] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.203 api.getFlannelHttpUrl is ENQUEUED 
+[02/18/20, 14:02:01:206] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.203 api.getFlannelHttpUrl is ACTIVE 
+[02/18/20, 14:02:01:251] info: [DEVICES] (T0436CXD4) ondevicechange fired 
+[02/18/20, 14:02:01:254] info: [DEVICES] (T0436CXD4) camera devices:
+---------------------------------------------------------------- | -----------------------------
+id                                                               | label                        
+---------------------------------------------------------------- | -----------------------------
+9cac8b7638e81fe5fc75100eb9cd200511e80b398fcf13131418c92ccbcfe46a | Integrated Webcam (0c45:6723)
+ 
+[02/18/20, 14:02:01:255] info: [DEVICES] (T0436CXD4) microphone devices:
+---------------------------------------------------------------- | ----------------------------
+id                                                               | label                       
+---------------------------------------------------------------- | ----------------------------
+default                                                          | Default                     
+ca0637279f5463c77a0ea4044df82f2eb711a920d731e98dcf4adca5b40947d2 | Built-in Audio Analog Stereo
+ 
+[02/18/20, 14:02:01:255] info: [DEVICES] (T0436CXD4) output devices:
+---------------------------------------------------------------- | ----------------------------
+id                                                               | label                       
+---------------------------------------------------------------- | ----------------------------
+default                                                          | Default                     
+7fc10d3cfaf855b10550241a4719ea7ba8632a65e597ceb95ead1df57352e20d | Built-in Audio Analog Stereo
+ 
+[02/18/20, 14:02:01:256] info: [DEVICES] (T0436CXD4) Setting output device to Default 
+[02/18/20, 14:02:01:271] info: [SIGNAL-MGR] (T0436CXD4) Signalling is connected 
+[02/18/20, 14:02:01:271] info: [METRICS] (T0436CXD4) websocket_connected 176.24000000068918 
+[02/18/20, 14:02:01:272] info: [SIGNAL-MGR] (T0436CXD4) Reset backoff timer. 
+[02/18/20, 14:02:01:281] info: [DEVICES] (T0436CXD4) Generated new track on Default: a1af8704-5947-4fdf-9592-e0dce775d5a8 
+[02/18/20, 14:02:01:282] info: [ORCA-MEDIA] (T0436CXD4) Sending initial offer 
+[02/18/20, 14:02:01:286] info: [API-Q] (T0436CXD4) noversion-1582030921.055 team.info is RESOLVED 
+[02/18/20, 14:02:01:293] info: Store: REDUX_UPDATE_FROM_WEBAPP (T0436CXD4) Changed keys [unreads] 
+[02/18/20, 14:02:01:294] info: [UNKNOWN-FETCH-MANAGER] (T0436CXD4) received T0436CXD4 (1) 
+[02/18/20, 14:02:01:295] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.121 emoji.list is RESOLVED 
+[02/18/20, 14:02:01:489] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.143 team.info is RESOLVED 
+[02/18/20, 14:02:01:491] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.096 screenhero.rooms.info is RESOLVED 
+[02/18/20, 14:02:01:537] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030921.203 api.getFlannelHttpUrl is RESOLVED 
+[02/18/20, 14:02:01:542] info: [API-Q] (T0436CXD4) noversion-1582030921.539 Flannel users/info called with reason: flannel-call:users/info 
+[02/18/20, 14:02:01:543] info: [API-Q] (T0436CXD4) noversion-1582030921.539 Flannel users/info is ENQUEUED 
+[02/18/20, 14:02:01:543] info: [API-Q] (T0436CXD4) noversion-1582030921.539 Flannel users/info is ACTIVE 
+[02/18/20, 14:02:01:906] info: [API-Q] (T0436CXD4) noversion-1582030921.539 Flannel users/info is RESOLVED 
+[02/18/20, 14:02:02:052] info: [DEVICES] (T0436CXD4) Updating devices with device enumeration. 
+[02/18/20, 14:02:02:067] info: [DEVICES] (T0436CXD4) camera devices:
+---------------------------------------------------------------- | -----------------------------
+id                                                               | label                        
+---------------------------------------------------------------- | -----------------------------
+9cac8b7638e81fe5fc75100eb9cd200511e80b398fcf13131418c92ccbcfe46a | Integrated Webcam (0c45:6723)
+ 
+[02/18/20, 14:02:02:068] info: [DEVICES] (T0436CXD4) microphone devices:
+---------------------------------------------------------------- | ----------------------------
+id                                                               | label                       
+---------------------------------------------------------------- | ----------------------------
+default                                                          | Default                     
+ca0637279f5463c77a0ea4044df82f2eb711a920d731e98dcf4adca5b40947d2 | Built-in Audio Analog Stereo
+ 
+[02/18/20, 14:02:02:068] info: [DEVICES] (T0436CXD4) output devices:
+---------------------------------------------------------------- | ----------------------------
+id                                                               | label                       
+---------------------------------------------------------------- | ----------------------------
+default                                                          | Default                     
+7fc10d3cfaf855b10550241a4719ea7ba8632a65e597ceb95ead1df57352e20d | Built-in Audio Analog Stereo
+ 
+[02/18/20, 14:02:02:070] info: [DEVICES] (T0436CXD4) Setting output device to Default 
+[02/18/20, 14:02:04:404] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[02/18/20, 14:02:07:156] info: [CALL-WINDOW] (T0436CXD4) Accept call button clicked 
+[02/18/20, 14:02:07:157] info: [INTER-WINDOW-MESSAGE] (T0436CXD4) Sending onIncomingInviteAccept to the slack window, with payload: "RU70KJMEK" 
+[02/18/20, 14:02:07:173] info: [CALL-WINDOW] (T0436CXD4) Rendering primary call window 
+[02/18/20, 14:02:07:245] info: [UNKNOWN-FETCH-MANAGER] (T0436CXD4) requesting DQQNJ5J0P (1) 
+[02/18/20, 14:02:07:248] info: [API-Q] (T0436CXD4) noversion-1582030927.247 Flannel channels/info called with reason: flannel-call:channels/info 
+[02/18/20, 14:02:07:248] info: [API-Q] (T0436CXD4) noversion-1582030927.247 Flannel channels/info is ENQUEUED 
+[02/18/20, 14:02:07:248] info: [API-Q] (T0436CXD4) noversion-1582030927.247 Flannel channels/info is ACTIVE 
+[02/18/20, 14:02:07:253] info: [METRICS] (T0436CXD4) intent_from_invite_to_joined 87.05499999632593 
+[02/18/20, 14:02:07:254] info: [ORCA-SDK] (T0436CXD4) Peers joined:
+[
+  {
+    "id": 94910673299609,
+    "userId": "UFKUR679N"
+  }
+] 
+[02/18/20, 14:02:07:264] info: [ORCA-MEDIA] (T0436CXD4) Adding receivers for new peers: 1, signaling state: have-local-offer 
+[02/18/20, 14:02:07:265] info: [SIGNAL-MGR] (T0436CXD4) Adding peers to subscribe to: 94910673299609 
+[02/18/20, 14:02:07:289] info: [ORCA-SDK] (T0436CXD4) Media: checking 
+[02/18/20, 14:02:07:289] info: [ORCA-SDK] (T0436CXD4) Media: checking, id: unpqkxn 
+[02/18/20, 14:02:07:289] info: [ORCA-MEDIA] (T0436CXD4) onnegotiationneeded fired 
+[02/18/20, 14:02:07:321] info: [ORCA-SDK] (T0436CXD4) Media: connected 
+[02/18/20, 14:02:07:321] info: [ORCA-SDK] (T0436CXD4) Media: connected, id: unpqkxn 
+[02/18/20, 14:02:07:321] info: [ORCA-SDK] (T0436CXD4) Successfully connected to the call. 
+[02/18/20, 14:02:07:341] info: [ORCA-MEDIA] (T0436CXD4) Sending renegotiation 
+[02/18/20, 14:02:07:364] info: [SIGNAL-MGR] (T0436CXD4) Sending add request for 94910673299609 
+[02/18/20, 14:02:07:366] info: [API-Q] (T0436CXD4) noversion-1582030927.247 Flannel channels/info is RESOLVED 
+[02/18/20, 14:02:07:379] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030927.375 conversations.genericInfo called with reason: fallback:UnknownFetchManager 
+[02/18/20, 14:02:07:380] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030927.375 conversations.genericInfo is ENQUEUED 
+[02/18/20, 14:02:07:380] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030927.375 conversations.genericInfo is ACTIVE 
+[02/18/20, 14:02:07:446] info: [ORCA-SDK] (T0436CXD4) Got a new audio track from peer 94910673299609: 187bb91e-d017-4502-a850-08075956c47b 
+[02/18/20, 14:02:07:542] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030927.375 conversations.genericInfo is RESOLVED 
+[02/18/20, 14:02:07:546] info: [UNKNOWN-FETCH-MANAGER] (T0436CXD4) received DQQNJ5J0P (1) 
+[02/18/20, 14:02:11:304] info: [ORCA-MEDIA] (T0436CXD4) Candidate: relay, Network: wifi, Transport: udp 
+[02/18/20, 14:02:11:312] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030931.309 screenhero.rooms.postAnalytics called with reason: calls-analytics 
+[02/18/20, 14:02:11:313] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030931.309 screenhero.rooms.postAnalytics is ENQUEUED 
+[02/18/20, 14:02:11:313] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030931.309 screenhero.rooms.postAnalytics is ACTIVE 
+[02/18/20, 14:02:11:752] info: [API-Q] (T0436CXD4) 1ab2cf0d-1582030931.309 screenhero.rooms.postAnalytics is RESOLVED 
+[02/18/20, 14:02:14:409] info: Store: SET_SYSTEM_IDLE active 
+[02/18/20, 14:02:19:434] warn: Couldn't complete metrics measurement for start mark 'session_lifespan' 
+[02/18/20, 14:02:19:435] warn: Couldn't complete metrics measurement for start mark 'session_lifespan_T0436CXD4' 
+[02/18/20, 14:02:19:442] info: [ORCA-SDK] (T0436CXD4) Shutting down 
+[02/18/20, 14:02:19:442] info: [ORCA-MEDIA] (T0436CXD4) Cleaning up 
+[02/18/20, 14:02:19:442] info: [ORCA-MEDIA] (T0436CXD4) Cleaning up: unpqkxn 
+[02/18/20, 14:02:19:455] info: [SIGNAL-MGR] (T0436CXD4) Cleaning up the session 
+[02/18/20, 14:02:19:455] info: [HTTP-CLIENT] (T0436CXD4) sendBeacon() called 
+[02/18/20, 14:02:19:455] info: [SIGNAL-MGR] (T0436CXD4) Killing the socket 
+[02/18/20, 14:02:19:455] info: [SIGNAL-MGR] (T0436CXD4) Signalling is disconnected 
+[02/18/20, 14:02:19:456] info: [(?)] Not adding alert 'connecting' because the window is closing 
+[02/18/20, 14:02:19:457] info: [(?)] Not adding alert 'connecting' because the window is closing 

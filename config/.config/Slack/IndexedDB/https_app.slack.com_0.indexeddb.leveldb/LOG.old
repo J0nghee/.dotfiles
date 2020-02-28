@@ -1,0 +1,6 @@
+2020/02/24-10:28:21.307 3730 Reusing MANIFEST /home/giogio/dotfiles/config/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/02/24-10:28:21.307 3730 Recovering log #11
+2020/02/24-10:28:21.320 3730 Reusing old log /home/giogio/dotfiles/config/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000011.log 
+2020/02/24-10:28:28.643 37b2 Level-0 table #15: started
+2020/02/24-10:28:28.657 37b2 Level-0 table #15: 1239400 bytes OK
+2020/02/24-10:28:28.659 37b2 Delete type=0 #11

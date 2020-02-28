@@ -1,0 +1,215 @@
+Looking for git in: git
+Using git 2.25.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/giogio/ansible-infrastructure-playbooks
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :ansibletower.vault
+> git check-ignore -v -z --stdin
+> git show :group_vars/ansibletower
+> git show :group_vars/docker-ee-dtr
+> git show :group_vars/elasticsearch
+> git show :group_vars/ejbca
+> git show :group_vars/docker-ee-ucp
+> git show :group_vars/docker-ee-dtr
+> git show :group_vars/openshift
+> git show :group_vars/nexpose
+> git check-ignore -v -z --stdin
+> git show :host_vars/kl10ejbca01.kiratech.lan
+> git show :host_vars/kl10elkes01.kiratech.lan
+> git show :host_vars/kl10elkes02.kiratech.lan
+> git show :host_vars/kl10elkes03.kiratech.lan
+> git show :host_vars/kl10repo.kiratech.lan
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :roles/apache-httpd/defaults/main.yml
+> git check-ignore -v -z --stdin
+> git show :roles/apache-httpd/files/ffdhe4096
+> git check-ignore -v -z --stdin
+> git show :roles/apache-httpd/handlers/main.yml
+> git check-ignore -v -z --stdin
+> git show :roles/apache-httpd/meta/main.yml
+> git check-ignore -v -z --stdin
+> git show :roles/apache-httpd/tasks/check-virtualhost-sanity.yml
+> git show :roles/apache-httpd/tasks/main.yml
+> git show :bootstrap.yml
+> git show :extra-vars.yml
+> git show :fusion.retry
+> git show :fusion.yml
+> git show :id_rsa_ansibletower.pub
+> git show :id_rsa_ansibletower.vault
+> git show :openshift.vault
+> git show :production
+> git show :site.yml
+> git show :staging
+> git show :update-systems.retry
+> git show :update-systems.yml
+> git show :voultpass
+> git show :update-systems.yml
+> git show :bootstrap.yml
+> git show :production
+> git show :README.md
+> git show :site.yml
+> git show :staging
+> git show :update-systems.retry
+> git show :update-systems.yml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :roles/rhel7-base/tasks/main.yml
+> git show :openshift.vault
+> git show :site.yml
+> git show :staging
+> git show :update-systems.retry
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :roles/icinga2/tasks/configure-client.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git show :update-systems.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :roles/icingaweb2/tasks/main.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :roles/icinga2/templates/icinga2-agent.conf.j2
+> git show :roles/icinga2/templates/icinga2.conf.j2
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git check-ignore -v -z --stdin
+> git show :roles/icinga2/defaults/main.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git show :roles/icinga2/defaults/main.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git show :roles/icinga2/tasks/main.yml
+> git show :roles/icinga2/templates/icinga2-agent.conf.j2
+> git show :roles/icinga2/templates/icinga2.conf.j2
+> git show :roles/icinga2/defaults/main.yml
+> git check-ignore -v -z --stdin
+> git show :roles/icinga2/vars/main.yml
+> git show :roles/icinga2/defaults/main.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/main.yml
+> git show :roles/icinga2/vars/main.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git show :roles/icinga2/vars/main.yml
+> git show :roles/icinga2/defaults/main.yml
+> git show :roles/icinga2/tasks/main.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git show :roles/requirements.yml
+> git show :bootstrap.yml
+> git show :setup-icinga.yml
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :update-systems.retry
+> git show :update-systems.yml
+> git show :host_vars/kl10ejbca01.kiratech.lan
+> git show :update-systems.retry
+> git show :update-systems.yml
+> git show :host_vars/kl10ejbca01.kiratech.lan
+> git show :group_vars/icinga
+> git show :group_vars/verona
+> git show :group_vars/openshift
+> git show :update-systems.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git show :roles/icinga2/tasks/main.yml
+> git show :staging
+> git show :update-systems.yml
+> git show :staging
+> git show :openshift.vault
+> git show :fusion.retry
+> git show :bootstrap.yml
+> git show :roles/icinga2/tasks/main.yml
+> git show :roles/icinga2/tasks/configure-server.yml
+> git show :staging
+> git show :site.yml
+> git show :setup-icinga.yml
+> git show :update-systems.retry
+> git show :update-systems.yml
+> git show :production
+> git show :update-systems.yml
+> git show :group_vars/icinga
+> git check-ignore -v -z --stdin
+> git show :bootstrap.yml
+> git show :roles/icinga2/tasks/configure-client.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git show :roles/icinga2/tasks/main.yml
+> git show :roles/icinga2/tasks/join-client-to-master.yml
+> git show :roles/icinga2/tasks/main.yml
+> git show :group_vars/ansibletower
+> git show :group_vars/docker-ee-dtr
+> git show :group_vars/ansibletower
+> git show :group_vars/icinga
+> git show :ansibletower.vault
+> git show :bootstrap.retry
+> git show :bootstrap.yml
+> git show :site.yml
+> git show :staging
+> git show :update-systems.retry
+> git show :update-systems.yml
+> git show :update-systems.retry
+> git show :update-systems.yml
+> git show :openshift.vault
+> git show :production
+> git show :setup-icinga.yml
+> git show :update-systems.yml
+> git show :update-systems.retry
+> git show :setup-icinga.yml
+> git show :update-systems.retry
+> git show :icinga-invenotry
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :icinga-inventory
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git rev-parse --show-toplevel

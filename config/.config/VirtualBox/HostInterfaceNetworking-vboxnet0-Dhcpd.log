@@ -1,0 +1,27 @@
+00:00:00.006921 VirtualBox DHCP Server 6.1.2 r135662 linux.amd64 (Jan 14 2020 22:33:16) release log
+00:00:00.006925 Log opened 2020-02-25T07:50:59.595179000Z
+00:00:00.006926 Build Type: release
+00:00:00.006935 OS Product: Linux
+00:00:00.006937 OS Release: 5.4.18-1-MANJARO
+00:00:00.006940 OS Version: #1 SMP PREEMPT Thu Feb 6 11:41:30 UTC 2020
+00:00:00.006971 DMI Product Name: XPS 15 7590
+00:00:00.006985 DMI Product Version: 
+00:00:00.006993 Firmware type: UEFI
+00:00:00.008211 Secure Boot: Disabled
+00:00:00.008290 Host RAM: 15641MB (15.2GB) total, 12416MB (12.1GB) available
+00:00:00.008296 Executable: /usr/lib/virtualbox/VBoxNetDHCP
+00:00:00.008297 Process ID: 5004
+00:00:00.008298 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.008334 --config:  HostInterfaceNetworking-vboxnet0
+00:00:00.008343 --comment: HostInterfaceNetworking-vboxnet0
+00:00:00.008548 IP address:   192.168.99.6/24
+00:00:00.008562 Address pool: 192.168.99.100 - 192.168.99.254
+00:00:00.008629 MAC address is not specified: will use generated MAC 08:00:27:99:64:99
+00:00:00.008644 Db::i_enterFixedAddressAssignment: 08:00:27:99:64:99: 192.168.99.6
+00:00:00.008657 loading leases from /home/giogio/.config/VirtualBox/HostInterfaceNetworking-vboxnet0-Dhcpd.leases
+00:00:00.009347 > LOAD: EXPIRED lease 192.168.99.104 to [01:08:00:27:4e:36:a4] (08:00:27:4e:36:a4), expired, valid from 2020-02-19T13:04:25Z for 600s until 2020-02-19T13:14:25Z
+00:00:00.009389 > LOAD:         lease 192.168.99.103 to 08:00:27:9b:ff:f3, expired, valid from 2020-01-28T14:57:42Z for 600s until 2020-01-28T15:07:42Z
+00:00:00.009412 > LOAD:         lease 192.168.99.102 to [01:08:00:27:e4:20:b6] (08:00:27:e4:20:b6), expired, valid from 2020-02-03T11:50:18Z for 600s until 2020-02-03T12:00:18Z
+00:00:00.009436 > LOAD:         lease 192.168.99.101 to [01:08:00:27:46:78:c5] (08:00:27:46:78:c5), expired, valid from 2020-01-22T13:54:22Z for 600s until 2020-01-22T14:04:22Z
+00:00:00.009458 > LOAD:         lease 192.168.99.100 to [01:08:00:27:f9:11:2e] (08:00:27:f9:11:2e), expired, valid from 2020-01-21T16:58:52Z for 600s until 2020-01-21T17:08:52Z
+12:18:12.172815 ifWait failed: VERR_INTERRUPTED

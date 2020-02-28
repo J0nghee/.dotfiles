@@ -1,0 +1,6 @@
+2020/02/26-10:28:47.778 1fa5 Reusing MANIFEST /home/giogio/dotfiles/config/.config/Rambox/Partitions/gmail_4/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/02/26-10:28:47.778 1fa5 Recovering log #12
+2020/02/26-10:28:47.786 1fa5 Reusing old log /home/giogio/dotfiles/config/.config/Rambox/Partitions/gmail_4/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000012.log 
+2020/02/26-10:29:00.681 21a2 Level-0 table #17: started
+2020/02/26-10:29:00.693 21a2 Level-0 table #17: 1609520 bytes OK
+2020/02/26-10:29:00.696 21a2 Delete type=0 #12

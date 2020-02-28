@@ -99,7 +99,6 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias s="sudo"
 alias sbb='sudo "$BASH" -c "$(history -p !!)"'
-alias 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -112,67 +111,6 @@ function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-echo 'complete -F __start_kubectl k' >>~/.zshrc
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
-complete -F __start_kubectl k
+alias vpn='/opt/cisco/anyconnect/bin/vpn'
+alias vpnui='/opt/cisco/anyconnect/bin/vpnui'
+setxkbmap -option caps:swapescape

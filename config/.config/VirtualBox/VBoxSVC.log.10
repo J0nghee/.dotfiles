@@ -1,0 +1,54 @@
+00:00:00.006319 main     VirtualBox XPCOM Server 6.1.2 r135662 linux.amd64 (Jan 14 2020 22:33:16) release log
+00:00:00.006326 main     Log opened 2020-02-03T11:55:49.466372000Z
+00:00:00.006327 main     Build Type: release
+00:00:00.006334 main     OS Product: Linux
+00:00:00.006338 main     OS Release: 5.4.14-2-MANJARO
+00:00:00.006341 main     OS Version: #1 SMP PREEMPT Fri Jan 24 09:34:16 UTC 2020
+00:00:00.006448 main     DMI Product Name: XPS 15 7590
+00:00:00.006468 main     DMI Product Version: 
+00:00:00.006480 main     Firmware type: UEFI
+00:00:00.007807 main     Secure Boot: Disabled
+00:00:00.007903 main     Host RAM: 15641MB (15.2GB) total, 15072MB (14.7GB) available
+00:00:00.007911 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.007912 main     Process ID: 1556
+00:00:00.007914 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.012361 main     IPC socket path: /tmp/.vbox-giogio-ipc/ipcd
+00:00:00.134986 nspr-2   VirtualBox: object creation starts
+00:00:00.135167 nspr-2   Home directory: '/home/giogio/.config/VirtualBox'
+00:00:00.135856 nspr-2   Loading settings file "/home/giogio/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.153103 nspr-2   Failed to retrive disk info: getDiskName(/dev/mapper/luks-cb9bde07-1c55-4c13-bbb5-e5b1bc52ccb6) --> luks-cb9bde07-1c55-4c13-bbb5-e5b1bc52ccb6
+00:00:00.157581 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp59s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.158227 nspr-2   HostDnsMonitor: initializing
+00:00:00.158468 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.158477 nspr-2   HostDnsMonitor: updating information
+00:00:00.158487 nspr-2   HostDnsMonitor: old information
+00:00:00.158488 nspr-2     no server entries
+00:00:00.158490 nspr-2     no domain set
+00:00:00.158491 nspr-2     no search string entries
+00:00:00.158493 nspr-2   HostDnsMonitor: new information
+00:00:00.158494 nspr-2     server 1: 192.168.1.1
+00:00:00.158496 nspr-2     domain: home
+00:00:00.158497 nspr-2     search string 1: home
+00:00:00.178208 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.179461 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.187719 nspr-2   Loading settings file "/home/giogio/VirtualBox VMs/Practice_default_1580209940553_42500/Practice_default_1580209940553_42500.vbox" with version "1.16-linux"
+00:00:00.190470 nspr-2   Loading settings file "/home/giogio/.minishift/machines/minishift/minishift/minishift.vbox" with version "1.15-linux"
+00:00:00.192373 nspr-2   Loading settings file "/home/giogio/VirtualBox VMs/icinga_default_1580287817332_64645/icinga_default_1580287817332_64645.vbox" with version "1.16-linux"
+00:00:00.194383 nspr-2   Loading settings file "/home/giogio/VirtualBox VMs/icinga_icinga_1580303549158_79541/icinga_icinga_1580303549158_79541.vbox" with version "1.16-linux"
+00:00:00.195136 nspr-2   Loading settings file "/home/giogio/VirtualBox VMs/icinga_test_1580303620589_81308/icinga_test_1580303620589_81308.vbox" with version "1.16-linux"
+00:00:00.197966 nspr-2   Loading settings file "/home/giogio/VirtualBox VMs/test_default_1580304303559_7037/test_default_1580304303559_7037.vbox" with version "1.16-linux"
+00:00:00.199089 nspr-2   VirtualBox: object created
+00:00:00.452764 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp59s0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:05.461178 main     VirtualBox: object deletion starts
+00:00:05.461206 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/giogio/VirtualBox VMs/Practice_default_1580209940553_42500/ubuntu-18.04-amd64-disk001.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.461284 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/giogio/.minishift/machines/minishift/disk.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.461339 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/giogio/VirtualBox VMs/icinga_default_1580287817332_64645/Snapshots/{b1217cde-929a-4cae-ae55-270e17904ff0}.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.461347 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/giogio/VirtualBox VMs/icinga_default_1580287817332_64645/centos-7.7-x86_64-disk001.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.461430 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/giogio/VirtualBox VMs/icinga_icinga_1580303549158_79541/centos-7.7-x86_64-disk001.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.461471 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/giogio/VirtualBox VMs/icinga_test_1580303620589_81308/centos-7.7-x86_64-disk001.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.461515 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/giogio/VirtualBox VMs/test_default_1580304303559_7037/centos-7.7-x86_64-disk001.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.463399 main     HostDnsMonitor: shutting down ...
+00:00:05.479553 main     HostDnsMonitor: shut down
+00:00:05.700160 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:10.480051 main     {00007f5db0016960} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:00:10.480621 main     VirtualBox: object deleted

@@ -1,0 +1,47 @@
+{
+   "checksum": "5328b8eaaa90cf38b6685b1c74e79ea1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13224758983937628",
+            "guid": "0cb4e505-3330-4bc7-ac7f-4fc047636644",
+            "id": "5",
+            "name": "",
+            "type": "url",
+            "url": "chrome-extension://ihlenndgcmojhcghmfjfneahoeklbjjh/pages/mappings.html"
+         }, {
+            "date_added": "13227282286300152",
+            "guid": "a30f7109-0768-49c2-ba16-87cd646f3b86",
+            "id": "7",
+            "name": "Configure AnyConnect Secure Mobility Client for Linux using Client Certificate Authentication on an ASA - Cisco",
+            "type": "url",
+            "url": "https://www.cisco.com/c/en/us/support/docs/security/anyconnect-secure-mobility-client/214612-configure-anyconnect-secure-mobility-cli.html"
+         } ],
+         "date_added": "13224673640800546",
+         "date_modified": "13227282286300152",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13224673640800549",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13224673640800550",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

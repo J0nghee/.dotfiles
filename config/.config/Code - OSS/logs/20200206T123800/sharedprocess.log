@@ -1,0 +1,14 @@
+[2020-02-06 12:38:03.975] [sharedprocess] [info] main {"machineId":"9dffa781e445005a8b3d78c9d5141ba61c50078998c6d6d2475ad86e29a5f6b9","windowId":2}
+[2020-02-06 12:38:11.679] [sharedprocess] [info] Installing extension: vscoss.vscode-ansible
+[2020-02-06 12:38:14.689] [sharedprocess] [info] Downloaded extension: vscoss.vscode-ansible /tmp/77369120-ef6c-474e-b430-27a5ad588064
+[2020-02-06 12:38:19.200] [sharedprocess] [info] Extracted extension to /home/giogio/.vscode-oss/extensions/.vscoss.vscode-ansible-0.5.2: vscoss.vscode-ansible
+[2020-02-06 12:38:19.200] [sharedprocess] [info] Renamed to /home/giogio/.vscode-oss/extensions/vscoss.vscode-ansible-0.5.2
+[2020-02-06 12:38:19.201] [sharedprocess] [info] Installation completed. vscoss.vscode-ansible
+[2020-02-06 12:38:19.212] [sharedprocess] [info] Extensions installed successfully: vscoss.vscode-ansible
+[2020-02-06 12:38:43.981] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-02-06 12:39:39.813] [sharedprocess] [info] Installing extension: redhat.vscode-yaml
+[2020-02-06 12:39:40.638] [sharedprocess] [info] Downloaded extension: redhat.vscode-yaml /tmp/2fb95580-d0bc-47ce-adaf-bb2d9c2c9976
+[2020-02-06 12:39:42.012] [sharedprocess] [info] Extracted extension to /home/giogio/.vscode-oss/extensions/.redhat.vscode-yaml-0.6.1: redhat.vscode-yaml
+[2020-02-06 12:39:42.012] [sharedprocess] [info] Renamed to /home/giogio/.vscode-oss/extensions/redhat.vscode-yaml-0.6.1
+[2020-02-06 12:39:42.014] [sharedprocess] [info] Installation completed. redhat.vscode-yaml
+[2020-02-06 12:39:42.019] [sharedprocess] [info] Extensions installed successfully: redhat.vscode-yaml
