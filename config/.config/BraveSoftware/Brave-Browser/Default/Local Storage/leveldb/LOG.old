@@ -1,4 +1,0 @@
-2020/02/26-09:26:12.951 de3 Reusing MANIFEST /home/giogio/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2020/02/26-09:26:12.952 de3 Recovering log #1134
-2020/02/26-09:26:12.952 de3 (ignoring error) /home/giogio/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001134.log: dropping 385 bytes; Corruption: missing start of fragmented record(2)
-2020/02/26-09:26:12.952 de3 Reusing old log /home/giogio/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/001134.log 
