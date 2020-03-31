@@ -99,9 +99,14 @@ export EDITOR='vim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias s="sudo"
 alias sbb='sudo "$BASH" -c "$(history -p !!)"'
+alias em='emacs -nw'
+alias tka='tmux kill-session -a -t $@'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+export PATH="$PATH:/home/giogio/usr/bin/flutter/bin"
 
+#export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platforms-tools"
+export ANDROID_HOME="/home/giogio/Android/Sdk"
 export TERM=xterm-256color
 #source $HOME/.oh-my-zsh/kube-ps1
 #PROMPT='$(kube_ps1)'$PROMPT
@@ -114,3 +119,19 @@ function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
 alias vpn='/opt/cisco/anyconnect/bin/vpn'
 alias vpnui='/opt/cisco/anyconnect/bin/vpnui'
 setxkbmap -option caps:swapescape
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/giogio/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/giogio/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/giogio/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/giogio/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

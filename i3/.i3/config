@@ -3,7 +3,7 @@
 exec_always --no-startup-id unity
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
-
+set $Alt Mod1
 # set default desktop layout (default is tiling)
 # workspace_layout tabbed <stacking|tabbed>
 
@@ -26,8 +26,6 @@ font xft:URWGothic-Book 11
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
 
-# start a terminal
-bindsym $mod+Return exec kitty -o background_opacity=0.8
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -493,14 +491,16 @@ exec_always xrandr --output eDP1 --mode 1920x1080 --pos 0x0 --rotate normal --ou
 bindsym $mod+Shift+f exec brave
 bindsym $mod+Shift+m exec rambox
 bindsym $mod+Shift+p exec pamac-manager
-bindsym $mod+o exec emacsclient -c -F '(quote (name . "org-protocol-capture"))' -e '(org-capture)'
-bindsym $mod+x exec emacs
 bindsym $mod+Shift+s exec slack
+bindsym $mod+x exec emacs
 # swap caps lock and escape
 exec_always --no-startup-id xmodmap -e "clear lock"
 exec_always --no-startup-id xmodmap -e "keycode 9 = Caps_Lock NoSymbol Caps_Lock"
 exec_always --no-startup-id xmodmap -e "keycode 66 = Escape NoSymbol Escape"
 #battery popup
 exec --no-startup-id i3-battery-popup -n -m "Attacca!! Attacca!! "
-bindsym $mod+Shift+e exec emacs --eval '(eshell)'
-bindsym $mod+Ctrl+e exec emacs --eval '(progn (eshell) (insert "tmux") (eshell-send-input))'
+bindsym $Alt+s exec "rft ss"
+bindsym $Alt+w exec "rft sw"
+bindsym $Alt+Shift+s exec "rft ks"
+bindsym $Alt+Shift+w exec "rft kw"
+bindsym $mod+Return exec kitty tmux attach
